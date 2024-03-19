@@ -110,7 +110,7 @@ function get_jumlah_vokal_konsonan($name)
               <td><?= strrev($name) ?></td>
               <td><?= get_jumlah_vokal_konsonan($name)['vokal'] ?></td>
               <td><?= get_jumlah_vokal_konsonan($name)['konsonan'] ?></td>
-              <td><a href="index.php?aksi=hapus&idx=<?= $idx ?>" style="display: inline;"><button>Kick</button></a></td>
+              <td><a href="ui.php?aksi=hapus&idx=<?= $idx ?>" style="display: inline;"><button>Kick</button></a></td>
             </tr>
           <?php
             $idx++;
