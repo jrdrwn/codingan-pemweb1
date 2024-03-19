@@ -68,7 +68,7 @@ function get_jumlah_vokal_konsonan($name)
 
 <body>
   <h1>Mengelola Nama Anggota Keluarga</h1>
-  <form method="post" action="index.php">
+  <form method="post" action="ui.php">
     <input type="text" name="name" placeholder="Nama" required />
     <input type="text" name="role" placeholder="Sebagai apa?" required />
     <button type="submit">Tambah</button>
